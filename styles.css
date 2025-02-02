@@ -1,0 +1,146 @@
+:root {
+    --font-primary: "Anek Latin", serif; /* Texto general */
+    --font-secondary: "Tourney", serif;/* Titulos */
+    --font-footer: "Iceland", serif;/* Footer */
+    --font-prueba2: "Blinker", serif;
+    --font-prueba3: "Tourney", serif;
+    --font-prueba4: "Genos", serif;
+    --font-prueba4: "Baumans", serif;
+    --font-prueba6: "Edu SA Beginner", serif;
+    --font-prueba7: "Anta", serif;
+    --font-prueba8: "Rubik Doodle Shadow", serif;
+    --font-prueba9: "Edu TAS Beginner", serif;
+    --font-prueba10: "Bungee Hairline", serif;
+    --font-prueba11: "Rubik Marker Hatch", serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(3, 95, 109);
+    color: aliceblue;
+}
+
+header h1 {
+    text-align: center;
+    font-family:  var(--font-prueba7);
+    font-size: 3rem;
+    background-image: url(assest/img/CodeFlow.jpeg);
+    padding: 2rem;
+    border: 1px solid rgb(106, 114, 104);
+    border-radius: 0.3rem;
+}
+
+main {
+    margin: 3rem 5rem 3rem 5rem;
+}
+
+main h2 {
+    font-family: var(--font-prueba7);
+    font-size: 1.5rem;
+}
+
+main p {
+    text-align: justify;
+    font-family: var(--font-primary);
+    font-size: 1.29rem;
+    line-height: 1.8rem;
+}
+
+.identificancion-problema {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-identificacion {
+    border-radius: 0.5rem;
+    margin: 1.5rem;
+    border: 1px solid white;
+}
+
+h3 {
+    margin: 1rem;
+    font-family: var(--font-prueba7);
+    font-size: 1.4rem;
+}
+
+.segmentacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-segmentacion {
+    border-radius: 0.5rem;
+    border: 2px solid white;
+    margin: 1.5rem;
+}
+
+.segmentacion-2 p {
+    max-width: 45rem;
+}
+
+.articulacion-prolema {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-articulacion {
+    border-radius: 0.5rem;
+    border: 2px solid white;
+    margin: 1.5rem;
+}
+
+.nombre-emprendimiento {
+    font-family: var(--font-secondary);
+    font-size: 1.35rem;
+}
+
+.nombre-emprendimiento h2, p {
+    margin-bottom: 1rem;
+}
+
+.video-promocional {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+video {
+    margin-top: 1.2rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(5, 108, 124);;
+}
+
+/* Footer */
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(13, 12, 12);
+    padding: 0.8rem;
+    border: 1px solid rgb(106, 114, 104);
+    border-radius: 0.3rem;
+}
+
+.icons-social {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.6rem;
+    margin-top: 0.6rem;
+}
+
+.social p {
+    font-family: var(--font-footer);
+    font-size: 1.2rem;
+}
